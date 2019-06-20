@@ -64,7 +64,7 @@ router.post("/webhook",(req,res,next)=>{
       Menu
       .findAll({where: {
         day: 'Monday',
-        type:'Soup'
+        type:req.body.queryResult.parameters.menuType
       }})
       .then(menus =>{
         console.log(menus)
