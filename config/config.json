@@ -1,24 +1,24 @@
 {
   "development": {
-    "username": "ticketWrap",
-    "password": "LetMeIn",
-    "database": "ticketWrap",
-    "host": "127.0.0.1",
+  "username": "lmfpnkdjejtuhe",
+    "password": "010d66febc30f7bf6496e3bd9410122b0ccf0d1eab4aeac46539e4449fe30f69",
+    "database": "d8hpp0hdbbpbn6",
+    "host": "ec2-54-228-243-238.eu-west-1.compute.amazonaws.com",
     "dialect": "postgres"
   },
   "test": {
-    "username": "ticketWrap",
-    "password": "LetMeIn",
-    "database": "ticketWrap",
-    "host": "127.0.0.1",
+  "username": "lmfpnkdjejtuhe",
+    "password": "010d66febc30f7bf6496e3bd9410122b0ccf0d1eab4aeac46539e4449fe30f69",
+    "database": "d8hpp0hdbbpbn6",
+    "host": "ec2-54-228-243-238.eu-west-1.compute.amazonaws.com",
     "dialect": "postgres",
     "operatorsAliases": false
   },
   "production": {
-    "username": "ticketWrap",
-    "password": "LetMeIn",
-    "database": "ticketWrap",
-    "host": "127.0.0.1",
+  "username": "lmfpnkdjejtuhe",
+    "password": "010d66febc30f7bf6496e3bd9410122b0ccf0d1eab4aeac46539e4449fe30f69",
+    "database": "d8hpp0hdbbpbn6",
+    "host": "ec2-54-228-243-238.eu-west-1.compute.amazonaws.com",
     "dialect": "postgres",
     "operatorsAliases": false
   }
