@@ -72,7 +72,7 @@ router.post("/webhook",(req,res,next)=>{
           acc=acc+menu.dish+','
           return acc;
         },'')
-        res.send({fulfillmentText:" In Today Menu for we have "+ menus.length +" types of Soup such as "+dishes})
+        res.send({fulfillmentText:" In Today Menu for we have "+ menus.length +" types of "+req.body.queryResult.parameters.menuType+" such as "+dishes})
     })
     .catch(error => next(error))
    
